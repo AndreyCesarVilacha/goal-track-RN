@@ -23,11 +23,11 @@ const GoalInput = (props) => {
 const styles = StyleSheet.create({
   inputContainer: {
     flexDirection: "row",
-    justifyContent: "space-between",
+    justifyContent: "space-evenly",
     alignItems: "center",
   },
   input: {
-    width: 200,
+    width: 250,
     borderColor: "black",
     borderWidth: 1,
     padding: 10,
