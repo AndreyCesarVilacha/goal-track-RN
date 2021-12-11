@@ -19,7 +19,7 @@ export default function App() {
     //setCourseGoals([...courseGoals, enteredGoal])
     setCourseGoals((currentGoals) => [
       ...currentGoals,
-      { key: Math.random().toString(), value: enteredGoal },
+      { key: Math.random().toString(), value: goalTitle },
     ]);
   };
 
